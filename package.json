@@ -1,0 +1,33 @@
+{
+  "name": "audio-to-text",
+  "version": "1.0.0",
+  "description": "Audio-to-Text is a Google Cloud Function triggered by an HTTP request that calls the Google Cloud Speech API",
+  "main": "index.js",
+  "dependencies": {
+    "busboy": "^0.3.0",
+    "@google-cloud/speech": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "5.14.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fostermade/audio-to-text"
+  },
+  "keywords": [
+    "Audio-to-Text",
+    "AudioToText",
+    "transcribe",
+    "audio",
+    "Google Cloud",
+    "Cloud Speech API",
+    "Cloud Functions",
+    "GCP"
+  ],
+  "author": "Foster Made",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fostermade/audio-to-text/issues"
+  },
+  "homepage": "https://github.com/fostermade/audio-to-text#readme"
+}
