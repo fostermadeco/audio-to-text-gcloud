@@ -7,7 +7,7 @@ const Busboy = require('busboy');
 const Speech = require('@google-cloud/speech');
 
 const ENCODING = 'LINEAR16';
-const SAMPLE_RATE_HERTZ = 24000;
+const SAMPLE_RATE_HERTZ = 41000;
 const LANGUAGE = 'en-US';
 
 const audioConfig = {
